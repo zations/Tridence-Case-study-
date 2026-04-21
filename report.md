@@ -283,6 +283,22 @@ main.py       → experiment runner
 
 ---
 
+<img width="1600" height="1066" alt="image" src="https://github.com/user-attachments/assets/6d0c5573-6395-4f77-93d7-d6183e853249" />
+This is the  from the evaluation criteria. It shows the bimodal distribution of final gate values for your best model (λ=0.005):
+- *Large spike near 0* → pruned connections (~26.3% of gates)
+- *Cluster at 0.3–1.0* → active, meaningful connections
+
+<img width="1600" height="1066" alt="image" src="https://github.com/user-attachments/assets/f5ac245a-5246-4e26-b2e6-577b8ed3d0e9" />
+
+Shows how CE loss drops and sparsity stabilizes across 100 epochs, with markers at *epoch 10* (pruning starts) and *epoch 50* (pruning stops).
+
+<img width="1600" height="1066" alt="image" src="https://github.com/user-attachments/assets/337e18ed-c56e-4e91-ac53-a1ce1dc56d74" />
+
+Shows the λ experiment results from your results.md — λ=5e-3 marked with ★ as the optimal balance point.
+
+
+
+
 ## Conclusion
 
 This project demonstrates that:
